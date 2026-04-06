@@ -1,0 +1,53 @@
+History
+   2 git status
+   3 git init
+   4 git add. //for all
+   5 git add abc.py
+   6 git status
+   7 git commit -m "firsttes"
+  10 rm abc.py
+  13 git restore abc.py
+  14 clear
+             //red
+  ///checked Untracked ->staged-> tracked  //green
+ 
+  15 git remote add origin https://github.com/loki-ikd/github_for_devops.git
+ 
+  //master --local and //main -- github or remote
+
+  git have 2 option fork and clone 
+  clone--copy on local   fork -- copy github to github
+  //sync fork
+  
+  16 git remote -v
+  17 git remote set -url origin  https....
+  18 git push origin master 
+  19 git clone "url"4
+
+  //ssh key
+  //personal access token
+  
+ 20  git pull origin master
+
+ branches and branching statergy
+ 21  git branch
+ 22 git checkout -h
+
+ master -> dev 
+
+ 23 git switch dev
+
+ dev--> staged-->main
+ dev--> fetured branch
+
+ latest commit --> head
+ git log  -oneline
+ git checkout
+
+git merge create pull request and comare
+
+
+/hooks  --> internal che
+%ls
+% vim pre-commit
+//githib action
